@@ -1,0 +1,19 @@
+/* The printed cover remains a single, uncropped original image. Depth belongs
+   to the surrounding book object, never to a reconstructed cover design. */
+.book-stage { position:relative; height:395px; margin-top:8px; perspective:1200px; transform:none; overflow:visible; }
+.book-stage .horizontal-book { display:none; }
+.book-stage::after { content:""; position:absolute; left:15%; right:15%; top:calc(50% + 134px); bottom:auto; height:20px; background:#4e2817; opacity:.24; border-radius:50%; filter:blur(12px); transform:none; z-index:0; }
+.book-stage .standing-book { position:absolute; width:218px; left:50%; top:50%; bottom:auto; height:auto; aspect-ratio:var(--cover-ratio,644/821); transform:translate(-50%,-50%) rotateY(-9deg); transform-style:preserve-3d; box-shadow:10px 6px 16px #51231728; z-index:1; background:#651b13; border:0; }
+.book-stage .reader-cover { display:none; }
+.book-stage .reader-display-cover { position:relative; display:block; width:100%; height:100%; aspect-ratio:var(--cover-ratio,644/821); background:#711c12; overflow:visible; border:0; box-shadow:none; }
+.book-stage .reader-display-cover > img { position:relative; display:block; width:100%; height:100%; aspect-ratio:644/821; object-fit:contain; border:0; margin:0; filter:none; }
+.book-stage .reader-display-cover::after { content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg,#1c08092b 0,transparent 4%,#ffffff0d 14%,transparent 35%,#2b090611 100%); box-shadow:inset 1px 0 #deb87c33,inset -1px 0 #40100950; }
+.book-stage .standing-spine { display:block; position:absolute; top:0; bottom:0; left:-19px; width:19px; background:linear-gradient(90deg,#390e0c,#791f15 38%,#a841244d 58%,#48110e 100%); border-left:1px solid #4e170c; border-right:1px solid #260709; transform:none; transform-origin:right; box-shadow:inset 3px 0 #b0793820; }
+.book-stage .standing-spine::before { content:""; position:absolute; inset:7px 4px; border-top:1px solid #b88c47a0; border-bottom:1px solid #b88c47a0; }
+.book-stage .standing-spine::after { content:none; }
+.book-stage .standing-pages { display:block; position:absolute; top:3px; bottom:3px; right:-7px; width:7px; background:repeating-linear-gradient(0deg,#d5bd8d 0 1px,#f5e9ce 1px 3px); border-right:1px solid #b49563; transform:none; transform-origin:left; box-shadow:1px 0 #721f14; }
+.original-cover-link { display:none!important; }
+@media(min-width:900px) { .book-stage{height:490px}.book-stage .standing-book{width:280px;left:50%;top:50%;bottom:auto}.book-stage::after{top:calc(50% + 174px);bottom:auto}.book-stage .standing-spine{width:23px;left:-23px} }
+@media(max-width:560px) { .book-stage{height:340px;max-width:360px;margin:auto}.book-stage .standing-book{width:205px;left:50%;top:50%;bottom:auto}.book-stage::after{top:calc(50% + 125px);bottom:auto;left:15%;right:15%}.book-stage .standing-spine{width:17px;left:-17px} }
+
+

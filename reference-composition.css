@@ -1,0 +1,84 @@
+/* Background placement follows the supplied reference, not the shelf scene. */
+.presentation-sequence{position:relative;isolation:isolate;background:#f6edda url('assets/reference-reading-background.jpg') center top/100% 100% no-repeat}
+.presentation-sequence .reader,.presentation-sequence .capture{background:transparent;isolation:auto}
+.presentation-sequence .reader-backdrop,.presentation-sequence .capture-backdrop{display:none}
+.presentation-sequence .reader:after{display:none}
+.reader-grid{grid-template-columns:.94fr 1.06fr;gap:24px}
+.reader{padding:18px 32px 22px}
+.reader-copy{padding-top:5px;background:transparent}
+.capture{padding:0 31px 40px}
+.capture-frame{background:#fbf4e3df;min-height:310px;padding:24px 28px;grid-template-columns:1.15fr .9fr;gap:24px}
+.capture-selected{display:block;margin:13px 0 0}
+.capture-selected p{font-size:14px;line-height:1.36}
+.capture-title{font-size:31px;font-weight:600;line-height:1.02}
+.capture-volume{font-size:22px}
+.capture-benefits{gap:16px}
+.capture-benefits span{font-size:11px}
+.form-panel{min-height:240px;padding:26px 15px 17px;background-color:#fff8e650}
+.materials-link{position:absolute;bottom:11px;right:33px;font-size:9px;color:#8f724b;opacity:.72;text-underline-offset:2px}
+.hero-map{opacity:.33;filter:sepia(1) contrast(1.35) brightness(1.18);mix-blend-mode:multiply}
+.hero-chart{opacity:.21}
+@media(min-width:900px){.reader{padding:25px 55px 28px}.reader-grid{gap:40px}.capture{padding:0 55px 50px}.capture-frame{padding:36px;gap:40px}.capture-title{font-size:43px}.capture-selected p{font-size:18px}.capture-benefits span{font-size:13px}.form-panel{padding:30px 22px}.materials-link{right:58px;bottom:16px}}
+@media(max-width:560px){.presentation-sequence{background-size:auto 100%;background-position:left top}.reader{padding:18px 23px 28px}.reader-grid{display:flex;gap:0}.reader-copy{background:linear-gradient(#f8f0dfc9,#f8f0dfdc);padding:15px 0 0}.capture{padding:0 18px 43px}.capture-frame{display:block;padding:25px 21px;background:#fbf4e3e8}.capture-title{font-size:32px}.capture-selected p{font-size:16px}.capture-benefits span{font-size:11px}.form-panel{padding:23px 15px;min-height:0}.materials-link{right:22px;bottom:13px;font-size:10px}}
+.hero{padding:120px 53px 0;min-height:755px}
+.hero-art{inset:0;background:url('assets/hero-reference-rostov-v3.jpg') center top/100% auto no-repeat;mask-image:linear-gradient(to bottom,#000 75%,transparent 96%);mask-composite:add}
+.hero-map{top:112px;right:-13%;width:59%;height:292px;background:url('assets/historical-empire-contour.svg') center/contain no-repeat;opacity:.65;filter:none;transform:rotate(-31deg);mask-image:linear-gradient(to right,transparent,#000 15%,#000);mix-blend-mode:multiply;z-index:1}
+.hero-chart{top:66px;right:0;width:375px;height:375px;opacity:.22}
+.hero-copy{max-width:490px}
+.hero h1{font-size:62px;letter-spacing:.005em}
+.hero h2{font-size:43px}
+.hero-description{max-width:335px}
+.hero-benefits{margin-top:80px;background:linear-gradient(transparent,#f6efdf95 32%,#f6efdf 95%)}
+@media(min-width:900px){.hero{padding:165px 80px 0;min-height:935px}.hero h1{font-size:94px}.hero h2{font-size:62px}.hero-art{background-size:100% auto}.hero-map{top:145px;right:-12%;width:56%;height:430px}.hero-chart{top:90px;width:550px;height:550px}.hero-description{max-width:405px}.hero-benefits{margin-top:125px}}
+@media(max-width:560px){.hero{padding:48px 24px 0;min-height:910px}.hero h1{font-size:46px}.hero h2{font-size:34px}.hero-description{max-width:300px}.hero-art{inset:245px -10% 120px;background-size:100% auto;background-position:center top;mask-image:linear-gradient(transparent 0%,#000 15%,#000 70%,transparent 95%)}.hero-map{top:350px;right:-15%;width:70%;height:175px;opacity:.45;z-index:1}.hero-chart{width:290px;height:290px;top:320px;right:-15%;z-index:0}.hero-benefits{margin-top:260px;z-index:2}}
+.hero-art{mask-image:linear-gradient(to right,transparent 0%,transparent 37%,#000 60%),linear-gradient(to bottom,transparent 50%,#000 66%,#000 80%,transparent 97%);mask-composite:add}
+.hero-map{opacity:.48}
+.capture-frame{background:#fbf4e3f5}
+.form-panel{background-color:#fff8e6b8}
+.book-stage .standing-book{transform:rotateY(-18deg) rotateZ(-3deg)}
+.book-stage .standing-spine{width:22px;left:-22px;transform:skewY(-14deg)}
+.collection .cover-button[aria-pressed='true']{transform:none}
+.collection .edition-cover .cover-name{display:block}
+.cover-title-line{display:block;white-space:nowrap;line-height:1.08}
+.collection .edition-cover .cover-name{font-size:11.3cqw;left:9%;right:9%;line-height:1.15}
+.cover-title-line{line-height:1.15}
+.cover-title-line:nth-child(3):last-child{font-size:inherit}
+.cover-button:nth-child(2) .cover-title-line:nth-child(3){font-size:9.8cqw}
+.hero-benefits>div,.hero-benefits p{background:transparent!important}
+@media(min-width:561px){.hero-art{mask-image:linear-gradient(to right,transparent 0%,transparent 47%,#000 63%),linear-gradient(to bottom,transparent 62%,#000 72%,#000 80%,transparent 97%)}.hero-benefits{background:linear-gradient(transparent,#f6efdfd9 28%,#f6efdf 95%);box-shadow:0 35px 40px 25px #f6efdf}}
+@media(min-width:900px){.hero-copy{max-width:680px}.book-stage .standing-spine{width:27px;left:-27px}}
+@media(max-width:560px){.hero-art{inset:130px -10% 135px;background-size:140% auto;mask-image:linear-gradient(transparent 0%,transparent 28%,#000 43%,#000 77%,transparent 100%);mask-composite:add}.hero-map{top:325px;opacity:.42}.hero-benefits{margin-top:235px}.presentation-sequence{background-size:100% auto;background-position:center top;background-repeat:no-repeat}.reader-copy{background:#f8f0df;padding-top:17px}.capture{isolation:isolate!important}.capture:before{content:'';position:absolute;inset:0;z-index:-1;background:url('assets/reference-reading-background.jpg') center bottom/100% auto no-repeat}.capture-frame{background:#fbf4e3f7}.book-stage .standing-spine{width:19px;left:-19px}}
+.collection .cover-row-six .cover-button:first-child .cover-title-line:nth-child(2){font-size:10.8cqw}
+.hero>.ornament{position:relative;z-index:3;opacity:1}
+/* User refinement: compact centred action, supplied imperial map, true section seams. */
+.hero-cta{width:232px;min-height:46px;padding:11px 18px;display:flex;justify-content:center;align-items:center;gap:14px;font-size:15px}
+.hero-cta span{display:block;width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);font-size:0;flex:none}
+.hero-map{background-image:url('assets/historical-map-user.png');background-size:contain;background-position:center;top:83px;right:-8%;width:60%;height:335px;transform:rotate(-14deg);opacity:.53;filter:grayscale(1) sepia(1) saturate(.65) contrast(.78) brightness(1.12);mix-blend-mode:multiply;mask-image:radial-gradient(ellipse at center,#000 39%,#0009 67%,transparent 88%)}
+.hero>.ornament,.collection>.ornament{position:absolute;left:50%;bottom:0;transform:translate(-50%,50%);z-index:5;opacity:1;width:170px;height:20px;margin:0;padding:0;background:#f8f0df}
+.collection{padding-bottom:17px}
+@media(min-width:900px){.hero-cta{width:248px;font-size:17px;min-height:49px}.hero-map{top:110px;right:-8%;width:60%;height:470px}}
+@media(max-width:560px){.hero-cta{width:220px;min-height:46px;font-size:15px}.hero-map{top:333px;right:-16%;width:90%;height:210px;opacity:.43}.hero>.ornament,.collection>.ornament{width:154px}}
+.hero-art{background-image:url('assets/hero-reference-rostov-v4.png')}
+.book-stage .standing-book{transform:translate(-50%,-50%) rotateY(-9deg)}
+.book-stage .standing-spine{transform:none}
+.capture-frame .frame-corner{width:52px;height:52px;border:0;color:#a88648;opacity:.85;pointer-events:none}
+.capture-frame .corner-tl{left:12px;top:12px;transform:none}
+.capture-frame .corner-tr{right:12px;top:12px;transform:scaleX(-1)}
+.capture-frame .corner-bl{left:12px;bottom:12px;transform:scaleY(-1)}
+.capture-frame .corner-br{right:12px;bottom:12px;transform:scale(-1)}
+.hero{z-index:3}.collection{z-index:2}.presentation-sequence{z-index:1}
+.hero-map{mask-image:radial-gradient(ellipse at center,#000 35%,#0008 60%,transparent 83%),linear-gradient(to right,transparent,#000 25%);mask-composite:intersect}
+.hero>.ornament,.collection>.ornament{background:linear-gradient(to right,transparent,#f8f0df 25%,#f8f0df 75%,transparent)}
+/* All thirteen editions use the same photographed product geometry. */
+.book-stage .standing-book{width:268px;transform:translate(-50%,-50%);background:none;box-shadow:none;aspect-ratio:1114/1412}
+.book-stage .reader-display-cover{background:none;aspect-ratio:1114/1412}
+.book-stage .reader-display-cover>img{aspect-ratio:1114/1412;object-fit:contain;filter:drop-shadow(5px 7px 5px #4b211326)}
+.book-stage .reader-display-cover:after{display:none}
+.book-stage .standing-spine,.book-stage .standing-pages{display:none}
+@media(min-width:900px){.book-stage .standing-book{width:340px}}
+@media(max-width:560px){.book-stage .standing-book{width:250px}}
+/* Isolated supplied map replaces the rectangular eagle map. */
+.hero-map{background-image:url('assets/hero-map-cutout-prepared.png');background-size:contain;background-position:center;top:85px;right:1%;width:57%;height:300px;transform:rotate(-15deg);opacity:.55;filter:grayscale(.25) sepia(.3) saturate(.65);mix-blend-mode:multiply;mask-image:linear-gradient(to right,transparent,#000 18%,#000 94%,transparent);mask-composite:add}
+@media(min-width:900px){.hero-map{top:115px;right:1%;width:57%;height:420px}}
+@media(max-width:560px){.hero-map{top:329px;right:-5%;width:89%;height:205px;opacity:.43;transform:rotate(-15deg)}}
+@media(min-width:561px){.hero-map{mask-image:linear-gradient(to right,transparent,transparent 25%,#000 52%,#000 95%,transparent);opacity:.5}}
