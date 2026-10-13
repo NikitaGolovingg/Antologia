@@ -1,5 +1,18 @@
 # Материалы и источники
 
+## Мобильная панорама Великого Новгорода — 12 октября 2026
+
+`mobile-novgorod-v1.png` — художественная акварельная производная фотографии Alexxx1979 (Alexxx-Malev), 20 июля 2020 года: [Veliky Novgorod. Volkhov river. Kremlin](https://commons.wikimedia.org/wiki/File:Veliky_Novgorod._Volkhov_river._Kremlin_P7201042_2350.jpg). Исходник и производная распространяются под [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Изменения встроенным imagegen: дневное освещение, акварельная стилистика, удаление современных лодок и подсветки; кадрирование CSS. Иллюстрация не является документальной исторической реконструкцией. Используется только в мобильном hero. Карта мобильного hero — фрагмент существующего скана `historical-map-1913.jpg`, источник и права указаны ниже.
+
+## Мобильные панорамы и миниатюры — 13 октября2026
+
+- `mobile-cheboksary-v1.png`: Francesco Piraneo G., [Cheboksary-Chapel along the Volga](https://commons.wikimedia.org/wiki/File:Cheboksary-Chapel_along_the_Volga.JPG), [CC BY3.0](https://creativecommons.org/licenses/by/3.0/). Встроенный imagegen: акварельная адаптация, дневное освещение, удаление проводов/столбов/надписей. Реальнаяархитектура сохраняется; не историческаяреконструкция.
+- `mobile-moscow-v1.png`: Photo: Anton Zelenov (Nino Verde), [View to Moscow river from Bolshoy Moskvoretsky Bridge](https://commons.wikimedia.org/wiki/File:View_to_Moscow_river_from_Bolshoy_Moskvoretsky_Bridge.jpg), [CC BY3.0](https://creativecommons.org/licenses/by/3.0/). Встроенный imagegen: правыйфрагментпанорамы, акварельнаяадаптация, удалениесовременныхдорог/машин/проводов/кранов/лодки. Не документальнаяисторическаяреконструкция.
+- `mobile-petersburg-source.jpg`: Ad Meskens, [Saint Petersburg Neva](https://commons.wikimedia.org/wiki/File:Saint_Petersburg_Neva.jpg), [CC BY-SA4.0](https://creativecommons.org/licenses/by-sa/4.0/). ИсходныйJPEG сохранён; кадрирование/цвет CSS.
+- `mobile-tobolsk-source.jpg`: Óðinn (The Cosmonaut), [Tobolsk Kremlin panorama1](https://commons.wikimedia.org/wiki/File:Tobolsk_Kremlin_panorama1.jpg), [CC BY-SA2.5Canada](https://creativecommons.org/licenses/by-sa/2.5/ca/). ИсходныйJPEG сохранён; кадрирование/цвет CSS. Используется как иллюстрациятемыСибири.
+- Дляизданийбезподтверждённыхвидов используютсянейтральные декоративныефрагментыкарты1913 с корректнымиalt, а не вымышленныеобъекты.
+- Всеисточники/лицензии доступны пользователю через `mobile-sources.html`; originalвыходныеданныеобложек не изменены.
+
 Обложки 13 книг предоставлены владельцем проекта из папки «Обложки Томов». Содержание обложек, издательские обозначения и авторство сохраняются.
 
 Архитектурный фон книжной полки создан заново на основе разрешённой владельцем иллюстрации приложения. Иллюстрация используется как декоративный фон и не заменяет научные материалы книг.
@@ -41,3 +54,20 @@ Rand McNally and Company, *Russia in empire*, издатель M. J. Kruming, 19
 ## Текущая карта первого экрана
 
 Предыдущая прямоугольная карта с орлом заменена на `hero-map-cutout-prepared.png`, подготовленный из предоставленного владельцем вырезанного силуэта (`historical-map-cutout-source.png`). Встроенный imagegen использован для обработки цветной каймы, прозрачности и тёплой палитры. На сайте слой приглушён, наклонён и смягчён со стороны текста. Точная дата и источник предоставленного скана не указаны.
+
+## WebP для сайта
+
+## Дополнительные мобильные иллюстрации — 13 октября 2026
+
+Новые PNG созданы встроенным imagegen как акварельные адаптации проверенных изображений, а не документальные исторические реконструкции. Исходные 30 WebP не заменены.
+
+- `mobile-novgorod-v1.png`: Alexxx1979, CC BY-SA 4.0; источник и промпт первого этапа сохранены в visual-audit.
+- `mobile-cheboksary-v1.png`: Francesco Piraneo G., CC BY 3.0, [часовня на Волге](https://commons.wikimedia.org/wiki/File:Cheboksary-Chapel_along_the_Volga.JPG).
+- `mobile-moscow-v1.png`: Anton Zelenov (Nino Verde), CC BY 3.0, [вид с Большого Москворецкого моста](https://commons.wikimedia.org/wiki/File:View_to_Moscow_river_from_Bolshoy_Moskvoretsky_Bridge.jpg). Автор указан также у панорамы.
+- `mobile-thumb-rostov-v1.png`: адаптация существующего hero-reference-rostov-v4.webp по фотографии Alexxx1979, CC BY-SA 3.0; источник указан выше.
+- `mobile-thumb-petersburg-v1.png`, исходник `mobile-petersburg-source.jpg`: Ad Meskens, CC BY-SA 4.0, [Нева и Санкт-Петербург](https://commons.wikimedia.org/wiki/File:Saint_Petersburg_Neva.jpg).
+- `mobile-thumb-tobolsk-v1.png`, исходник `mobile-tobolsk-source.jpg`: Óðinn (The Cosmonaut), CC BY-SA 2.5 Canada, [Тобольский кремль](https://commons.wikimedia.org/wiki/File:Tobolsk_Kremlin_panorama1.jpg).
+
+Производные изображения сохраняют соответствующие лицензии. Источники доступны пользователю через mobile-sources.html; карта 1913 года используется как декоративный тематический фрагмент, без утверждения, что это карта каждой указанной области.
+
+12 октября2026: подключены30WebP, подготовленных владельцем вXnConvert. Преобразованиеформата не меняет авторства или обязательныхлицензий: они распространяются также на облегчённыеверсии. ИсходныеPNG/JPG сохранены. Текущиефоны hero-reference-rostov-v4.webp, hero-map-cutout-prepared.webp, collection-architecture.webp, reference-reading-background.webp; книги book-product-01.webp…13.webp, исходноеоформление cover-01.webp…13.webp.

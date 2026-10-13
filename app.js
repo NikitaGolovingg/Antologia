@@ -13,7 +13,7 @@ const BOOKS = [
  {tom:9,title:'Крым и Новороссия',intro:'Исторические города и сёла Крыма и Новороссии: архитектурное наследие, планировка и история поселений.',subjects:6,settlements:995},
  {tom:10,part:1,title:'Москва. Казань',intro:'Москва и Казань — два города-маяка собрания. История архитектуры, городского пространства и культурного наследия.'},
  {tom:10,part:2,title:'Санкт-Петербург. Севастополь',intro:'Санкт-Петербург и Севастополь — два города-маяка собрания. Архитектурное наследие и градостроительная история.'}
-].map((b,i)=>({...b,id:i,cover:`assets/cover-${String(i+1).padStart(2,'0')}.png`,product:`assets/book-product-${String(i+1).padStart(2,'0')}.png`}));
+].map((b,i)=>({...b,id:i,cover:`assets/cover-${String(i+1).padStart(2,'0')}.webp`,product:`assets/book-product-${String(i+1).padStart(2,'0')}.webp`}));
 let viewed=2,selected=2;
 const $=s=>document.querySelector(s);
 const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -29,7 +29,7 @@ function makeCover(book,compact=false){
   filter.append(luminance,gold,composite);document.querySelector('.symbols').append(filter);
  }
  const node=document.createElement('div');node.className='edition-cover';
- const crest=document.createElement('span');crest.className='cover-crest';const image=document.createElement('img');image.src='assets/cover-03.png';image.alt='';crest.append(image);
+ const crest=document.createElement('span');crest.className='cover-crest';const image=document.createElement('img');image.src='assets/cover-03.webp';image.alt='';crest.append(image);
  const number=document.createElement('span');number.className='cover-number';number.textContent=`Том ${book.tom}`;
  const name=document.createElement('span');name.className='cover-name';
  const shelfLines=[['Наследие —','цивилизационный','код'],['У истоков','российского','градостроительства'],['Центральный','федеральный','округ'],['Центральный','федеральный','округ'],['Северо-Западный','федеральный','округ'],['Приволжский','федеральный','округ'],['Южный','и Северо-','Кавказский','округа'],['Уральский','федеральный','округ'],['Сибирский','федеральный','округ'],['Дальневосточный','федеральный','округ'],['Крым и','Новороссия'],['Москва. Казань'],['Санкт-Петербург.','Севастополь']];

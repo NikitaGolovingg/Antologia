@@ -19,7 +19,7 @@
 .collection-heading>p:last-child{margin-bottom:76px}
 .collection-art{inset:100px 0 0;opacity:.72;background-size:100% auto;background-position:center bottom;mask-image:linear-gradient(transparent,black 20%,black 90%,transparent)}
 .cover-row{gap:6px;padding:0 2px 25px;border:0;background:none;isolation:isolate}
-.cover-row:after{content:'';position:absolute;left:-29px;right:-29px;bottom:0;height:27px;z-index:-1;background:linear-gradient(174deg,#fff8e7a0,transparent 30%),url('assets/collection-architecture.jpg') center bottom/100% auto;box-shadow:inset 0 1px 0 #fff9ee,inset 0 -1px 0 #d0b88a,0 3px 4px #98774826;transform:perspective(600px) rotateX(8deg)}
+.cover-row:after{content:'';position:absolute;left:-29px;right:-29px;bottom:0;height:27px;z-index:-1;background:linear-gradient(174deg,#fff8e7a0,transparent 30%),url('assets/collection-architecture.webp') center bottom/100% auto;box-shadow:inset 0 1px 0 #fff9ee,inset 0 -1px 0 #d0b88a,0 3px 4px #98774826;transform:perspective(600px) rotateX(8deg)}
 .cover-row-six{padding-inline:22px;margin-bottom:7px}
 .cover-row-seven{gap:5px}
 .cover-button{box-shadow:3px 3px 4px #54231755;transform:perspective(700px) rotateY(-5deg);border-radius:1px;transition:transform .22s,filter .22s}
@@ -45,7 +45,7 @@
 .reader-display-cover .cover-name{font-size:20px;line-height:1.04;font-weight:500}
 .reader-display-cover .cover-part{font-size:15px}
 .reader-display-cover .cover-crest{margin-top:15%;margin-bottom:7%}
-.reader-display-cover .cover-city{display:block;position:absolute;bottom:6px;left:8px;right:8px;height:37px;background:url('assets/collection-architecture.jpg') center 35%/auto 120px;mix-blend-mode:screen;opacity:.2;mask-image:linear-gradient(transparent,black)}
+.reader-display-cover .cover-city{display:block;position:absolute;bottom:6px;left:8px;right:8px;height:37px;background:url('assets/collection-architecture.webp') center 35%/auto 120px;mix-blend-mode:screen;opacity:.2;mask-image:linear-gradient(transparent,black)}
 .standing-spine{width:17px;left:-17px;background:linear-gradient(90deg,#431017,#87212a,#601219);transform:rotateY(-28deg);border-inline:1px solid #bf9656}
 .standing-spine:after{content:'✥';position:absolute;top:16%;left:3px;color:#c29a59;font-size:13px}
 .standing-pages{width:5px;background:repeating-linear-gradient(0deg,#baa078 0 1px,#f5e8c8 1px 3px)}
