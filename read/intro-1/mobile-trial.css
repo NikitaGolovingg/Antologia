@@ -1,0 +1,13 @@
+/* Isolated physical-iPhone trial: Tom 1 / Book 1 only. */
+@media(max-width:600px){
+ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+ body[data-book="intro-1"] header{display:flex;align-items:center;gap:8px;padding-left:10px;padding-right:10px}
+ body[data-book="intro-1"] header>.heading{flex:1 1 0%;width:0;min-width:0;overflow:hidden}
+ body[data-book="intro-1"] header .heading h1{font-size:18px;line-height:1.2;overflow-wrap:anywhere;max-height:2.4em}
+ body[data-book="intro-1"] header .heading p{font-size:11px;line-height:1.35;overflow-wrap:anywhere;max-height:2.7em}
+ body[data-book="intro-1"] .toolbar{display:flex;gap:8px;justify-content:center;align-items:center;width:100%;max-width:336px;margin:0 auto}
+ body[data-book="intro-1"] .icon{-webkit-appearance:none;appearance:none;display:flex;align-items:center;justify-content:center;flex:0 0 44px!important;width:44px!important;min-width:44px!important;max-width:44px!important;height:44px;min-height:44px;padding:0!important;margin:0;box-sizing:border-box;font-size:25px;line-height:1;overflow:hidden}
+ body[data-book="intro-1"] #page-jump{-webkit-appearance:none;appearance:none;display:block;flex:1 1 100px;min-width:68px!important;max-width:104px;width:auto;padding:0 2px!important;margin:0;min-height:44px;font-size:15px;line-height:1.2;white-space:nowrap;box-sizing:border-box}
+ body[data-book="intro-1"] footer{padding-left:10px;padding-right:10px}
+}
+@media(max-width:350px){body[data-book="intro-1"] .toolbar{gap:5px}body[data-book="intro-1"] header .heading h1{font-size:16px}}
