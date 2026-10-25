@@ -1,0 +1,415 @@
+{
+  "id": "far-east",
+  "title": "Дальневосточный федеральный округ",
+  "volume": 8,
+  "book": null,
+  "lastPage": 576,
+  "availablePages": [
+    1,
+    3,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "tocPages": [
+    3
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "3": "pages/0003.webp",
+    "32": "pages/0032.webp",
+    "33": "pages/0033.webp",
+    "34": "pages/0034.webp",
+    "35": "pages/0035.webp",
+    "36": "pages/0036.webp",
+    "37": "pages/0037.webp",
+    "38": "pages/0038.webp",
+    "39": "pages/0039.webp",
+    "40": "pages/0040.webp",
+    "41": "pages/0041.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Дальневосточный федеральный округ",
+      "page": 6,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 491
+    },
+    {
+      "id": "toc-2",
+      "title": "Республика Бурятия",
+      "page": 26,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 47
+    },
+    {
+      "id": "toc-3",
+      "title": "Перечень городов",
+      "page": 32,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 42
+    },
+    {
+      "id": "toc-4",
+      "title": "Исторические сёла Республики Бурятии",
+      "page": 43,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 47
+    },
+    {
+      "id": "toc-5",
+      "title": "Республика Саха (Якутия)",
+      "page": 48,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 93
+    },
+    {
+      "id": "toc-6",
+      "title": "Перечень городов",
+      "page": 55,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 66
+    },
+    {
+      "id": "toc-7",
+      "title": "Исторические сёла Республики Саха (Якутия)",
+      "page": 67,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 93
+    },
+    {
+      "id": "toc-8",
+      "title": "Забайкальский край",
+      "page": 94,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 143
+    },
+    {
+      "id": "toc-9",
+      "title": "Перечень городов",
+      "page": 107,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 123
+    },
+    {
+      "id": "toc-10",
+      "title": "Исторические сёла Забайкальского края",
+      "page": 124,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 143
+    },
+    {
+      "id": "toc-11",
+      "title": "Камчатский край",
+      "page": 144,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 175
+    },
+    {
+      "id": "toc-12",
+      "title": "Перечень городов",
+      "page": 149,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 154
+    },
+    {
+      "id": "toc-13",
+      "title": "Исторические сёла Камчатского края",
+      "page": 155,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 175
+    },
+    {
+      "id": "toc-14",
+      "title": "Приморский край",
+      "page": 176,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 261
+    },
+    {
+      "id": "toc-15",
+      "title": "Перечень городов",
+      "page": 186,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 226
+    },
+    {
+      "id": "toc-16",
+      "title": "Исторические сёла Приморского края",
+      "page": 227,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 261
+    },
+    {
+      "id": "toc-17",
+      "title": "Хабаровский край",
+      "page": 262,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 303
+    },
+    {
+      "id": "toc-18",
+      "title": "Перечень городов",
+      "page": 268,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 281
+    },
+    {
+      "id": "toc-19",
+      "title": "Исторические сёла Хабаровского края",
+      "page": 282,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 303
+    },
+    {
+      "id": "toc-20",
+      "title": "Амурская область",
+      "page": 304,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 337
+    },
+    {
+      "id": "toc-21",
+      "title": "Перечень городов",
+      "page": 310,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 321
+    },
+    {
+      "id": "toc-22",
+      "title": "Исторические сёла Амурской области",
+      "page": 322,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 337
+    },
+    {
+      "id": "toc-23",
+      "title": "Магаданская область",
+      "page": 338,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 373
+    },
+    {
+      "id": "toc-24",
+      "title": "Перечень городов",
+      "page": 351,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 352
+    },
+    {
+      "id": "toc-25",
+      "title": "Исторические сёла Магаданской области",
+      "page": 353,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 373
+    },
+    {
+      "id": "toc-26",
+      "title": "Сахалинская область",
+      "page": 374,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 441
+    },
+    {
+      "id": "toc-27",
+      "title": "Перечень городов",
+      "page": 382,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 408
+    },
+    {
+      "id": "toc-28",
+      "title": "Исторические сёла Сахалинской области",
+      "page": 409,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 441
+    },
+    {
+      "id": "toc-29",
+      "title": "Еврейская автономная область",
+      "page": 442,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 475
+    },
+    {
+      "id": "toc-30",
+      "title": "Перечень городов",
+      "page": 452,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 466
+    },
+    {
+      "id": "toc-31",
+      "title": "Исторические сёла Еврейской автономной области",
+      "page": 467,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 475
+    },
+    {
+      "id": "toc-32",
+      "title": "Чукотский автономный округ",
+      "page": 476,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 491
+    },
+    {
+      "id": "toc-33",
+      "title": "Перечень городов",
+      "page": 482,
+      "parent": "toc-32",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 483
+    },
+    {
+      "id": "toc-34",
+      "title": "Исторические сёла Чукотского автономного округа",
+      "page": 484,
+      "parent": "toc-32",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 491
+    },
+    {
+      "id": "toc-35",
+      "title": "Список использованных источников",
+      "page": 492,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 545
+    },
+    {
+      "id": "toc-36",
+      "title": "Приложение",
+      "page": 546,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 569
+    },
+    {
+      "id": "toc-37",
+      "title": "Словарь",
+      "page": 570,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 576
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2024",
+    "© ООО «Издательство «Зодчий», 2024"
+  ],
+  "demo": true
+}

@@ -1,0 +1,224 @@
+{
+  "id": "intro-2",
+  "title": "У истоков российского градостроительства · Книга 2",
+  "volume": 1,
+  "book": 2,
+  "lastPage": 492,
+  "availablePages": [
+    1,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    490,
+    491
+  ],
+  "tocPages": [
+    490,
+    491
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "12": "pages/0012.webp",
+    "13": "pages/0013.webp",
+    "14": "pages/0014.webp",
+    "15": "pages/0015.webp",
+    "16": "pages/0016.webp",
+    "17": "pages/0017.webp",
+    "18": "pages/0018.webp",
+    "19": "pages/0019.webp",
+    "20": "pages/0020.webp",
+    "490": "pages/0490.webp",
+    "491": "pages/0491.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Предисловие",
+      "page": 3,
+      "parent": null,
+      "kind": "section",
+      "sourcePage": 3,
+      "authors": "",
+      "depth": 0,
+      "endPage": 11
+    },
+    {
+      "id": "toc-2",
+      "title": "Малые поселения – душа великой России и ее будущее",
+      "page": 12,
+      "parent": null,
+      "kind": "section",
+      "sourcePage": 12,
+      "authors": "А.Ш. Шамузафаров",
+      "depth": 0,
+      "endPage": 19
+    },
+    {
+      "id": "toc-3",
+      "title": "Российская империя – государство, соединившее Балтийское море и Тихий океан",
+      "page": 20,
+      "parent": null,
+      "kind": "section",
+      "sourcePage": 20,
+      "authors": "Э.А. Галустян-Шевченко, С.Д. Митягин, В.И. Пустовгаров, А.И. Симонов",
+      "depth": 0,
+      "endPage": 77
+    },
+    {
+      "id": "toc-4",
+      "title": "Первопроходцы теоретической мысли по градостроительству России",
+      "page": 78,
+      "parent": null,
+      "kind": "group",
+      "sourcePage": null,
+      "authors": "",
+      "depth": 0,
+      "endPage": 329
+    },
+    {
+      "id": "toc-5",
+      "title": "Исследования O городах русских. Общий список русских городов (1844 г.)",
+      "page": 80,
+      "parent": "toc-4",
+      "kind": "section",
+      "sourcePage": 80,
+      "authors": "К.А. Неволин",
+      "depth": 1,
+      "endPage": 123
+    },
+    {
+      "id": "toc-6",
+      "title": "Древние города России. Историко-юридическое исследование (1873 г.)",
+      "page": 124,
+      "parent": "toc-4",
+      "kind": "section",
+      "sourcePage": 124,
+      "authors": "Д.Я. Самоквасов",
+      "depth": 1,
+      "endPage": 199
+    },
+    {
+      "id": "toc-7",
+      "title": "Города Московского государства в XVI в. Исследование (1889 г.)",
+      "page": 200,
+      "parent": "toc-4",
+      "kind": "section",
+      "sourcePage": 200,
+      "authors": "Н.Д. Чечулин",
+      "depth": 1,
+      "endPage": 223
+    },
+    {
+      "id": "toc-8",
+      "title": "Правовое положение городов в древнерусский период, с IX по XVII в. (по материалам книг И.Д. Беляева «Лекции по истории русского законодательства» и Г.В. Алферовой «Русские города XVI–XVII вв.»)",
+      "page": 224,
+      "parent": "toc-4",
+      "kind": "section",
+      "shortTitle": "Правовое положение городов в древнерусский период, с IX по XVII в.",
+      "sourcePage": 224,
+      "authors": "",
+      "depth": 1,
+      "endPage": 255
+    },
+    {
+      "id": "toc-9",
+      "title": "Город и деревня в Европейской России (1910 г.)",
+      "page": 256,
+      "parent": "toc-4",
+      "kind": "section",
+      "sourcePage": 256,
+      "authors": "В.П. Семенов-Тян-Шанский",
+      "depth": 1,
+      "endPage": 329
+    },
+    {
+      "id": "toc-10",
+      "title": "Следуя первопроходцам",
+      "page": 330,
+      "parent": null,
+      "kind": "group",
+      "sourcePage": null,
+      "authors": "",
+      "depth": 0,
+      "endPage": 487
+    },
+    {
+      "id": "toc-11",
+      "title": "Древнерусские города (1956 г.)",
+      "page": 332,
+      "parent": "toc-10",
+      "kind": "section",
+      "sourcePage": 332,
+      "authors": "М.Н. Тихомиров",
+      "depth": 1,
+      "endPage": 363
+    },
+    {
+      "id": "toc-12",
+      "title": "Русское градостроительство до конца XVII века (1953 г.)",
+      "page": 364,
+      "parent": "toc-10",
+      "kind": "section",
+      "sourcePage": 364,
+      "authors": "Л.М. Тверской",
+      "depth": 1,
+      "endPage": 385
+    },
+    {
+      "id": "toc-13",
+      "title": "Заселение – переселение. По материалам изданий «Азиатская Россия», «Амур. Справочная книжка Амурской области для переселенцев», «Путеводитель по Великой Сибирской железной дороге»",
+      "page": 386,
+      "parent": "toc-10",
+      "kind": "section",
+      "shortTitle": "Заселение – переселение",
+      "sourcePage": 386,
+      "authors": "Э.А. Галустян-Шевченко",
+      "depth": 1,
+      "endPage": 405
+    },
+    {
+      "id": "toc-14",
+      "title": "Путями русской архитектуры",
+      "page": 406,
+      "parent": "toc-10",
+      "kind": "section",
+      "sourcePage": 406,
+      "authors": "А.С. Кривов",
+      "depth": 1,
+      "endPage": 429
+    },
+    {
+      "id": "toc-15",
+      "title": "Градостроительное авторство и его правовая охрана",
+      "page": 430,
+      "parent": "toc-10",
+      "kind": "section",
+      "sourcePage": 430,
+      "authors": "В.А. Майборода",
+      "depth": 1,
+      "endPage": 487
+    },
+    {
+      "id": "toc-16",
+      "title": "Список источников, использованных при подготовке 1-й и 2-й книг тома 1",
+      "page": 488,
+      "parent": null,
+      "kind": "section",
+      "sourcePage": 488,
+      "authors": "",
+      "depth": 0,
+      "endPage": 492
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2025",
+    "© ООО «Издательство «Зодчий», 2025"
+  ],
+  "demo": true
+}

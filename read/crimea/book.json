@@ -1,0 +1,245 @@
+{
+  "id": "crimea",
+  "title": "Крым и Новороссия",
+  "volume": 9,
+  "book": null,
+  "lastPage": 588,
+  "availablePages": [
+    1,
+    3,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "tocPages": [
+    3
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "3": "pages/0003.webp",
+    "56": "pages/0056.webp",
+    "57": "pages/0057.webp",
+    "58": "pages/0058.webp",
+    "59": "pages/0059.webp",
+    "60": "pages/0060.webp",
+    "61": "pages/0061.webp",
+    "62": "pages/0062.webp",
+    "63": "pages/0063.webp",
+    "64": "pages/0064.webp",
+    "65": "pages/0065.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Крым и Новороссия",
+      "page": 8,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 47
+    },
+    {
+      "id": "toc-2",
+      "title": "Республика Крым",
+      "page": 48,
+      "parent": null,
+      "kind": "region",
+      "authors": "",
+      "depth": 0,
+      "endPage": 211
+    },
+    {
+      "id": "toc-3",
+      "title": "Перечень городов",
+      "page": 56,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 1,
+      "endPage": 123
+    },
+    {
+      "id": "toc-4",
+      "title": "Исторические сёла Крыма",
+      "page": 124,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 1,
+      "endPage": 211
+    },
+    {
+      "id": "toc-5",
+      "title": "Карина Меннанова. Мой Крым в серебряной оправе",
+      "page": 212,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 225
+    },
+    {
+      "id": "toc-6",
+      "title": "Новороссия",
+      "page": 226,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 537
+    },
+    {
+      "id": "toc-7",
+      "title": "Донецкая Народная Республика",
+      "page": 226,
+      "parent": "toc-6",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 325
+    },
+    {
+      "id": "toc-8",
+      "title": "Перечень городов",
+      "page": 232,
+      "parent": "toc-7",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 315
+    },
+    {
+      "id": "toc-9",
+      "title": "Исторические сёла Донецкой Народной Республики",
+      "page": 316,
+      "parent": "toc-7",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 325
+    },
+    {
+      "id": "toc-10",
+      "title": "Луганская Народная Республика",
+      "page": 326,
+      "parent": "toc-6",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 407
+    },
+    {
+      "id": "toc-11",
+      "title": "Перечень городов",
+      "page": 339,
+      "parent": "toc-10",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 386
+    },
+    {
+      "id": "toc-12",
+      "title": "Исторические сёла Луганской Народной Республики",
+      "page": 387,
+      "parent": "toc-10",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 407
+    },
+    {
+      "id": "toc-13",
+      "title": "Запорожская область",
+      "page": 408,
+      "parent": "toc-6",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 453
+    },
+    {
+      "id": "toc-14",
+      "title": "Перечень городов",
+      "page": 418,
+      "parent": "toc-13",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 438
+    },
+    {
+      "id": "toc-15",
+      "title": "Исторические сёла Запорожской области",
+      "page": 439,
+      "parent": "toc-13",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 453
+    },
+    {
+      "id": "toc-16",
+      "title": "Херсонская область",
+      "page": 454,
+      "parent": "toc-6",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 537
+    },
+    {
+      "id": "toc-17",
+      "title": "Перечень городов",
+      "page": 467,
+      "parent": "toc-16",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 501
+    },
+    {
+      "id": "toc-18",
+      "title": "Исторические сёла Херсонской области",
+      "page": 502,
+      "parent": "toc-16",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 537
+    },
+    {
+      "id": "toc-19",
+      "title": "Список использованных источников",
+      "page": 538,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 581
+    },
+    {
+      "id": "toc-20",
+      "title": "Словарь",
+      "page": 582,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 588
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2025",
+    "© ООО «Издательство «Зодчий», 2025"
+  ],
+  "demo": true
+}

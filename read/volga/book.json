@@ -1,0 +1,495 @@
+{
+  "id": "volga",
+  "title": "Приволжский федеральный округ",
+  "volume": 4,
+  "book": null,
+  "lastPage": 708,
+  "availablePages": [
+    1,
+    3,
+    14,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27
+  ],
+  "tocPages": [
+    3
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "3": "pages/0003.webp",
+    "14": "pages/0014.webp",
+    "19": "pages/0019.webp",
+    "20": "pages/0020.webp",
+    "21": "pages/0021.webp",
+    "22": "pages/0022.webp",
+    "23": "pages/0023.webp",
+    "24": "pages/0024.webp",
+    "25": "pages/0025.webp",
+    "26": "pages/0026.webp",
+    "27": "pages/0027.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Приволжский федеральный округ",
+      "page": 8,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 645
+    },
+    {
+      "id": "toc-2",
+      "title": "Республика Башкортостан",
+      "page": 14,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 59
+    },
+    {
+      "id": "toc-3",
+      "title": "Перечень городов",
+      "page": 19,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 40
+    },
+    {
+      "id": "toc-4",
+      "title": "Исторические сёла области",
+      "page": 41,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 59
+    },
+    {
+      "id": "toc-5",
+      "title": "Кировская область",
+      "page": 60,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 111
+    },
+    {
+      "id": "toc-6",
+      "title": "Перечень городов",
+      "page": 67,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 99
+    },
+    {
+      "id": "toc-7",
+      "title": "Исторические сёла области",
+      "page": 100,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 111
+    },
+    {
+      "id": "toc-8",
+      "title": "Республика Марий Эл",
+      "page": 112,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 141
+    },
+    {
+      "id": "toc-9",
+      "title": "Перечень городов",
+      "page": 117,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 124
+    },
+    {
+      "id": "toc-10",
+      "title": "Исторические сёла области",
+      "page": 125,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 141
+    },
+    {
+      "id": "toc-11",
+      "title": "Республика Мордовия",
+      "page": 142,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 165
+    },
+    {
+      "id": "toc-12",
+      "title": "Перечень городов",
+      "page": 147,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 159
+    },
+    {
+      "id": "toc-13",
+      "title": "Исторические сёла области",
+      "page": 160,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 165
+    },
+    {
+      "id": "toc-14",
+      "title": "Нижегородская область",
+      "page": 166,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 255
+    },
+    {
+      "id": "toc-15",
+      "title": "Перечень городов",
+      "page": 171,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 218
+    },
+    {
+      "id": "toc-16",
+      "title": "Исторические сёла области",
+      "page": 219,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 255
+    },
+    {
+      "id": "toc-17",
+      "title": "Оренбургская область",
+      "page": 256,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 277
+    },
+    {
+      "id": "toc-18",
+      "title": "Перечень городов",
+      "page": 260,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 269
+    },
+    {
+      "id": "toc-19",
+      "title": "Исторические сёла области",
+      "page": 270,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 277
+    },
+    {
+      "id": "toc-20",
+      "title": "Пензенская область",
+      "page": 278,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 341
+    },
+    {
+      "id": "toc-21",
+      "title": "Перечень городов",
+      "page": 288,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 317
+    },
+    {
+      "id": "toc-22",
+      "title": "Исторические сёла области",
+      "page": 318,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 341
+    },
+    {
+      "id": "toc-23",
+      "title": "Пермский край",
+      "page": 342,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 405
+    },
+    {
+      "id": "toc-24",
+      "title": "Перечень городов",
+      "page": 349,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 387
+    },
+    {
+      "id": "toc-25",
+      "title": "Исторические сёла области",
+      "page": 388,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 405
+    },
+    {
+      "id": "toc-26",
+      "title": "Самарская область",
+      "page": 406,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 439
+    },
+    {
+      "id": "toc-27",
+      "title": "Перечень городов",
+      "page": 411,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 426
+    },
+    {
+      "id": "toc-28",
+      "title": "Исторические сёла области",
+      "page": 427,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 439
+    },
+    {
+      "id": "toc-29",
+      "title": "Саратовская область",
+      "page": 440,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 499
+    },
+    {
+      "id": "toc-30",
+      "title": "Перечень городов",
+      "page": 447,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 482
+    },
+    {
+      "id": "toc-31",
+      "title": "Исторические сёла области",
+      "page": 483,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 499
+    },
+    {
+      "id": "toc-32",
+      "title": "Республика Татарстан",
+      "page": 500,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 541
+    },
+    {
+      "id": "toc-33",
+      "title": "Перечень городов",
+      "page": 507,
+      "parent": "toc-32",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 536
+    },
+    {
+      "id": "toc-34",
+      "title": "Исторические сёла области",
+      "page": 537,
+      "parent": "toc-32",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 541
+    },
+    {
+      "id": "toc-35",
+      "title": "Удмуртская Республика",
+      "page": 542,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 575
+    },
+    {
+      "id": "toc-36",
+      "title": "Перечень городов",
+      "page": 548,
+      "parent": "toc-35",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 566
+    },
+    {
+      "id": "toc-37",
+      "title": "Исторические сёла области",
+      "page": 567,
+      "parent": "toc-35",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 575
+    },
+    {
+      "id": "toc-38",
+      "title": "Ульяновская область",
+      "page": 576,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 621
+    },
+    {
+      "id": "toc-39",
+      "title": "Перечень городов",
+      "page": 583,
+      "parent": "toc-38",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 599
+    },
+    {
+      "id": "toc-40",
+      "title": "Исторические сёла области",
+      "page": 600,
+      "parent": "toc-38",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 621
+    },
+    {
+      "id": "toc-41",
+      "title": "Чувашская Республика",
+      "page": 622,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 645
+    },
+    {
+      "id": "toc-42",
+      "title": "Перечень городов",
+      "page": 627,
+      "parent": "toc-41",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 639
+    },
+    {
+      "id": "toc-43",
+      "title": "Исторические сёла области",
+      "page": 640,
+      "parent": "toc-41",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 645
+    },
+    {
+      "id": "toc-44",
+      "title": "Список использованных источников",
+      "page": 646,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 702
+    },
+    {
+      "id": "toc-45",
+      "title": "Словарь",
+      "page": 703,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 708
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2024",
+    "© ООО «Издательство «Зодчий», 2024"
+  ],
+  "demo": true
+}

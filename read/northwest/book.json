@@ -1,0 +1,375 @@
+{
+  "id": "northwest",
+  "title": "Северо-Западный федеральный округ",
+  "volume": 3,
+  "book": null,
+  "lastPage": 520,
+  "availablePages": [
+    1,
+    3,
+    12,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "tocPages": [
+    3
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "3": "pages/0003.webp",
+    "12": "pages/0012.webp",
+    "17": "pages/0017.webp",
+    "18": "pages/0018.webp",
+    "19": "pages/0019.webp",
+    "20": "pages/0020.webp",
+    "21": "pages/0021.webp",
+    "22": "pages/0022.webp",
+    "23": "pages/0023.webp",
+    "24": "pages/0024.webp",
+    "25": "pages/0025.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Северо-Западный федеральный округ",
+      "page": 8,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 465
+    },
+    {
+      "id": "toc-2",
+      "title": "Архангельская область",
+      "page": 12,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 37
+    },
+    {
+      "id": "toc-3",
+      "title": "Перечень городов",
+      "page": 17,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 30
+    },
+    {
+      "id": "toc-4",
+      "title": "Исторические сёла области",
+      "page": 31,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 37
+    },
+    {
+      "id": "toc-5",
+      "title": "Ненецкий автономный округ",
+      "page": 38,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 67
+    },
+    {
+      "id": "toc-6",
+      "title": "Перечень городов",
+      "page": 43,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 47
+    },
+    {
+      "id": "toc-7",
+      "title": "Исторические сёла области",
+      "page": 48,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 67
+    },
+    {
+      "id": "toc-8",
+      "title": "Вологодская область",
+      "page": 68,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 103
+    },
+    {
+      "id": "toc-9",
+      "title": "Перечень городов",
+      "page": 75,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 94
+    },
+    {
+      "id": "toc-10",
+      "title": "Исторические сёла области",
+      "page": 95,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 103
+    },
+    {
+      "id": "toc-11",
+      "title": "Калининградская область",
+      "page": 104,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 195
+    },
+    {
+      "id": "toc-12",
+      "title": "Перечень городов",
+      "page": 111,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 189
+    },
+    {
+      "id": "toc-13",
+      "title": "Исторические сёла области",
+      "page": 190,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 195
+    },
+    {
+      "id": "toc-14",
+      "title": "Республика Карелия",
+      "page": 196,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 237
+    },
+    {
+      "id": "toc-15",
+      "title": "Перечень городов",
+      "page": 201,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 218
+    },
+    {
+      "id": "toc-16",
+      "title": "Исторические сёла области",
+      "page": 219,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 237
+    },
+    {
+      "id": "toc-17",
+      "title": "Республика Коми",
+      "page": 238,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 253
+    },
+    {
+      "id": "toc-18",
+      "title": "Перечень городов",
+      "page": 245,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 246
+    },
+    {
+      "id": "toc-19",
+      "title": "Исторические сёла области",
+      "page": 247,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 253
+    },
+    {
+      "id": "toc-20",
+      "title": "Ленинградская область",
+      "page": 254,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 317
+    },
+    {
+      "id": "toc-21",
+      "title": "Перечень городов",
+      "page": 261,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 298
+    },
+    {
+      "id": "toc-22",
+      "title": "Исторические сёла области",
+      "page": 299,
+      "parent": "toc-20",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 317
+    },
+    {
+      "id": "toc-23",
+      "title": "Мурманская область",
+      "page": 318,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 349
+    },
+    {
+      "id": "toc-24",
+      "title": "Перечень городов",
+      "page": 328,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 339
+    },
+    {
+      "id": "toc-25",
+      "title": "Исторические сёла области",
+      "page": 340,
+      "parent": "toc-23",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 349
+    },
+    {
+      "id": "toc-26",
+      "title": "Новгородская область",
+      "page": 350,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 405
+    },
+    {
+      "id": "toc-27",
+      "title": "Перечень городов",
+      "page": 359,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 390
+    },
+    {
+      "id": "toc-28",
+      "title": "Исторические сёла области",
+      "page": 391,
+      "parent": "toc-26",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 405
+    },
+    {
+      "id": "toc-29",
+      "title": "Псковская область",
+      "page": 406,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 465
+    },
+    {
+      "id": "toc-30",
+      "title": "Перечень городов",
+      "page": 413,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 446
+    },
+    {
+      "id": "toc-31",
+      "title": "Исторические сёла области",
+      "page": 447,
+      "parent": "toc-29",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 465
+    },
+    {
+      "id": "toc-32",
+      "title": "Список использованных источников",
+      "page": 466,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 515
+    },
+    {
+      "id": "toc-33",
+      "title": "Словарь",
+      "page": 516,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 520
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2023",
+    "© ООО «Издательство «Зодчий», 2023"
+  ],
+  "demo": true
+}

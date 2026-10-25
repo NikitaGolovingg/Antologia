@@ -1,0 +1,265 @@
+{
+  "id": "petersburg-sevastopol",
+  "title": "Санкт-Петербург и Севастополь",
+  "volume": 10,
+  "book": 2,
+  "lastPage": 738,
+  "availablePages": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    737
+  ],
+  "tocPages": [
+    737
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "4": "pages/0004.webp",
+    "5": "pages/0005.webp",
+    "6": "pages/0006.webp",
+    "7": "pages/0007.webp",
+    "8": "pages/0008.webp",
+    "9": "pages/0009.webp",
+    "10": "pages/0010.webp",
+    "11": "pages/0011.webp",
+    "12": "pages/0012.webp",
+    "13": "pages/0013.webp",
+    "737": "pages/0737.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Санкт-Петербург",
+      "page": 4,
+      "parent": null,
+      "kind": "group",
+      "sourcePage": null,
+      "authors": "",
+      "depth": 0,
+      "endPage": 497
+    },
+    {
+      "id": "toc-2",
+      "title": "Мой Петербург",
+      "page": 6,
+      "parent": "toc-1",
+      "kind": "section",
+      "sourcePage": 6,
+      "authors": "А.С. Кривов",
+      "depth": 1,
+      "endPage": 93
+    },
+    {
+      "id": "toc-3",
+      "title": "Величественный Санкт-Петербург. 1703–1917 гг.",
+      "page": 94,
+      "parent": "toc-1",
+      "kind": "section",
+      "sourcePage": 94,
+      "authors": "С.В. Семенцов",
+      "depth": 1,
+      "endPage": 137
+    },
+    {
+      "id": "toc-4",
+      "title": "Санкт-Петербург во время правления Петра Первого – Петра Великого. 1700–1724 гг.",
+      "page": 104,
+      "parent": "toc-3",
+      "kind": "section",
+      "sourcePage": 104,
+      "authors": "",
+      "depth": 2,
+      "endPage": 113
+    },
+    {
+      "id": "toc-5",
+      "title": "Градостроительная политика и генеральные планы в Санкт-Петербурге в 1730–1750-е гг.",
+      "page": 114,
+      "parent": "toc-3",
+      "kind": "section",
+      "sourcePage": 114,
+      "authors": "",
+      "depth": 2,
+      "endPage": 137
+    },
+    {
+      "id": "toc-6",
+      "title": "Город, парящий над гладью вод. Путешествие",
+      "page": 138,
+      "parent": "toc-1",
+      "kind": "section",
+      "sourcePage": 138,
+      "authors": "Э.А. Галустян-Шевченко, А.И. Симонов, С.Н. Рогожук, М.Д. Великанова, И.А. Лобова, В.И. Пустовгаров, Н.Т. Шахсуварян, Н.В. Сабитова",
+      "depth": 1,
+      "endPage": 355
+    },
+    {
+      "id": "toc-7",
+      "title": "Мойка",
+      "page": 145,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 145,
+      "authors": "",
+      "depth": 2,
+      "endPage": 178
+    },
+    {
+      "id": "toc-8",
+      "title": "Канал Грибоедова",
+      "page": 179,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 179,
+      "authors": "",
+      "depth": 2,
+      "endPage": 189
+    },
+    {
+      "id": "toc-9",
+      "title": "Река Фонтанка",
+      "page": 190,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 190,
+      "authors": "",
+      "depth": 2,
+      "endPage": 231
+    },
+    {
+      "id": "toc-10",
+      "title": "Обводный канал",
+      "page": 232,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 232,
+      "authors": "",
+      "depth": 2,
+      "endPage": 247
+    },
+    {
+      "id": "toc-11",
+      "title": "Нева",
+      "page": 248,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 248,
+      "authors": "",
+      "depth": 2,
+      "endPage": 269
+    },
+    {
+      "id": "toc-12",
+      "title": "Малая Нева",
+      "page": 270,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 270,
+      "authors": "",
+      "depth": 2,
+      "endPage": 301
+    },
+    {
+      "id": "toc-13",
+      "title": "Большая Невка",
+      "page": 302,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 302,
+      "authors": "",
+      "depth": 2,
+      "endPage": 317
+    },
+    {
+      "id": "toc-14",
+      "title": "Малая Невка",
+      "page": 318,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 318,
+      "authors": "",
+      "depth": 2,
+      "endPage": 340
+    },
+    {
+      "id": "toc-15",
+      "title": "Карповка",
+      "page": 341,
+      "parent": "toc-6",
+      "kind": "section",
+      "sourcePage": 341,
+      "authors": "",
+      "depth": 2,
+      "endPage": 355
+    },
+    {
+      "id": "toc-16",
+      "title": "Города в составе Санкт-Петербурга",
+      "page": 356,
+      "parent": "toc-1",
+      "kind": "section",
+      "sourcePage": 356,
+      "authors": "А.И. Симонов",
+      "depth": 1,
+      "endPage": 461
+    },
+    {
+      "id": "toc-17",
+      "title": "Посёлки в составе Санкт-Петербурга",
+      "page": 462,
+      "parent": "toc-1",
+      "kind": "section",
+      "sourcePage": 462,
+      "authors": "С.Н. Рогожук",
+      "depth": 1,
+      "endPage": 497
+    },
+    {
+      "id": "toc-18",
+      "title": "Севастополь",
+      "page": 498,
+      "parent": null,
+      "kind": "group",
+      "sourcePage": null,
+      "authors": "",
+      "depth": 0,
+      "endPage": 733
+    },
+    {
+      "id": "toc-19",
+      "title": "Севастополь",
+      "page": 500,
+      "parent": "toc-18",
+      "kind": "section",
+      "sourcePage": 500,
+      "authors": "Э.М. Меннанов, Э.М. Меннанов, Н.Н. Шевченко, К.Э. Меннанова, А.И. Симонов",
+      "depth": 1,
+      "endPage": 733
+    },
+    {
+      "id": "toc-20",
+      "title": "Список использованных источников",
+      "page": 734,
+      "parent": null,
+      "kind": "section",
+      "sourcePage": 734,
+      "authors": "",
+      "depth": 0,
+      "endPage": 738
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2025",
+    "© ООО «Издательство «Зодчий», 2025"
+  ],
+  "demo": true
+}

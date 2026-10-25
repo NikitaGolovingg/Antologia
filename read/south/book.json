@@ -1,0 +1,465 @@
+{
+  "id": "south",
+  "title": "Южный и Северо-Кавказский федеральные округа",
+  "volume": 5,
+  "book": null,
+  "lastPage": 588,
+  "availablePages": [
+    1,
+    3,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "tocPages": [
+    3
+  ],
+  "images": {
+    "1": "pages/0001.webp",
+    "3": "pages/0003.webp",
+    "24": "pages/0024.webp",
+    "25": "pages/0025.webp",
+    "26": "pages/0026.webp",
+    "27": "pages/0027.webp",
+    "28": "pages/0028.webp",
+    "29": "pages/0029.webp",
+    "30": "pages/0030.webp",
+    "31": "pages/0031.webp",
+    "32": "pages/0032.webp",
+    "33": "pages/0033.webp"
+  },
+  "entries": [
+    {
+      "id": "toc-1",
+      "title": "Южный федеральный округ",
+      "page": 8,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 299
+    },
+    {
+      "id": "toc-2",
+      "title": "Республика Адыгея",
+      "page": 18,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 41
+    },
+    {
+      "id": "toc-3",
+      "title": "Перечень городов",
+      "page": 24,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 26
+    },
+    {
+      "id": "toc-4",
+      "title": "Исторические сёла Республики Адыгея",
+      "page": 27,
+      "parent": "toc-2",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 41
+    },
+    {
+      "id": "toc-5",
+      "title": "Астраханская область",
+      "page": 42,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 67
+    },
+    {
+      "id": "toc-6",
+      "title": "Перечень городов",
+      "page": 48,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 55
+    },
+    {
+      "id": "toc-7",
+      "title": "Исторические сёла Астраханской области",
+      "page": 56,
+      "parent": "toc-5",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 67
+    },
+    {
+      "id": "toc-8",
+      "title": "Волгоградская область",
+      "page": 68,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 173
+    },
+    {
+      "id": "toc-9",
+      "title": "Перечень городов",
+      "page": 74,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 125
+    },
+    {
+      "id": "toc-10",
+      "title": "Исторические сёла Волгоградской области",
+      "page": 126,
+      "parent": "toc-8",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 173
+    },
+    {
+      "id": "toc-11",
+      "title": "Республика Калмыкия",
+      "page": 174,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 193
+    },
+    {
+      "id": "toc-12",
+      "title": "Перечень городов",
+      "page": 179,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 185
+    },
+    {
+      "id": "toc-13",
+      "title": "Исторические сёла Республики Калмыкия",
+      "page": 186,
+      "parent": "toc-11",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 193
+    },
+    {
+      "id": "toc-14",
+      "title": "Краснодарский край",
+      "page": 194,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 233
+    },
+    {
+      "id": "toc-15",
+      "title": "Перечень городов",
+      "page": 199,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 228
+    },
+    {
+      "id": "toc-16",
+      "title": "Исторические сёла Краснодарского края",
+      "page": 229,
+      "parent": "toc-14",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 233
+    },
+    {
+      "id": "toc-17",
+      "title": "Ростовская область",
+      "page": 234,
+      "parent": "toc-1",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 299
+    },
+    {
+      "id": "toc-18",
+      "title": "Перечень городов",
+      "page": 239,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 262
+    },
+    {
+      "id": "toc-19",
+      "title": "Исторические сёла Ростовской области",
+      "page": 263,
+      "parent": "toc-17",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 299
+    },
+    {
+      "id": "toc-20",
+      "title": "Северо-Кавказский федеральный округ",
+      "page": 300,
+      "parent": null,
+      "kind": "group",
+      "authors": "",
+      "depth": 0,
+      "endPage": 539
+    },
+    {
+      "id": "toc-21",
+      "title": "Республика Дагестан",
+      "page": 304,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 343
+    },
+    {
+      "id": "toc-22",
+      "title": "Перечень городов",
+      "page": 310,
+      "parent": "toc-21",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 321
+    },
+    {
+      "id": "toc-23",
+      "title": "Исторические сёла Республики Дагестан",
+      "page": 322,
+      "parent": "toc-21",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 343
+    },
+    {
+      "id": "toc-24",
+      "title": "Республика Ингушетия",
+      "page": 344,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 363
+    },
+    {
+      "id": "toc-25",
+      "title": "Перечень городов",
+      "page": 349,
+      "parent": "toc-24",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 352
+    },
+    {
+      "id": "toc-26",
+      "title": "Исторические сёла Республики Ингушетия",
+      "page": 353,
+      "parent": "toc-24",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 363
+    },
+    {
+      "id": "toc-27",
+      "title": "Кабардино-Балкарская Республика",
+      "page": 364,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 393
+    },
+    {
+      "id": "toc-28",
+      "title": "Перечень городов",
+      "page": 370,
+      "parent": "toc-27",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 376
+    },
+    {
+      "id": "toc-29",
+      "title": "Исторические сёла Кабардино-Балкарской Республики",
+      "page": 377,
+      "parent": "toc-27",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 393
+    },
+    {
+      "id": "toc-30",
+      "title": "Карачаево-Черкесская Республика",
+      "page": 394,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 437
+    },
+    {
+      "id": "toc-31",
+      "title": "Перечень городов",
+      "page": 400,
+      "parent": "toc-30",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 405
+    },
+    {
+      "id": "toc-32",
+      "title": "Исторические сёла Карачаево-Черкесской Республики",
+      "page": 406,
+      "parent": "toc-30",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 437
+    },
+    {
+      "id": "toc-33",
+      "title": "Республика Северная Осетия – Алания",
+      "page": 438,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 459
+    },
+    {
+      "id": "toc-34",
+      "title": "Перечень городов",
+      "page": 443,
+      "parent": "toc-33",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 455
+    },
+    {
+      "id": "toc-35",
+      "title": "Исторические сёла Республики Северная Осетия – Алания",
+      "page": 456,
+      "parent": "toc-33",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 459
+    },
+    {
+      "id": "toc-36",
+      "title": "Ставропольский край",
+      "page": 460,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 503
+    },
+    {
+      "id": "toc-37",
+      "title": "Перечень городов",
+      "page": 465,
+      "parent": "toc-36",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 489
+    },
+    {
+      "id": "toc-38",
+      "title": "Исторические сёла Ставропольского края",
+      "page": 490,
+      "parent": "toc-36",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 503
+    },
+    {
+      "id": "toc-39",
+      "title": "Чеченская Республика",
+      "page": 504,
+      "parent": "toc-20",
+      "kind": "region",
+      "authors": "",
+      "depth": 1,
+      "endPage": 539
+    },
+    {
+      "id": "toc-40",
+      "title": "Перечень городов",
+      "page": 511,
+      "parent": "toc-39",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 520
+    },
+    {
+      "id": "toc-41",
+      "title": "Исторические сёла Чеченской Республики",
+      "page": 521,
+      "parent": "toc-39",
+      "kind": "section",
+      "authors": "",
+      "depth": 2,
+      "endPage": 539
+    },
+    {
+      "id": "toc-42",
+      "title": "Список использованных источников",
+      "page": 540,
+      "parent": null,
+      "kind": "section",
+      "authors": "",
+      "depth": 0,
+      "endPage": 588
+    }
+  ],
+  "credits": [
+    "© Оформление: Д.И. Сазонов, 2024",
+    "© ООО «Издательство «Зодчий», 2024"
+  ],
+  "demo": true
+}
