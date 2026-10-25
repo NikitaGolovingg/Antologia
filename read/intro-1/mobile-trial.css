@@ -28,3 +28,9 @@ body[data-book="intro-1"] .reader-tabs button{display:flex;flex-direction:column
 @media(max-height:450px){body[data-book="intro-1"] header{padding:5px 14px}.reader-tabs{margin-top:5px;padding:0}.reader-tabs button{min-height:36px!important;flex-direction:row!important}.reader-control{gap:2px}.control-label{font-size:9px}}
 body[data-book="intro-1"] #contents-bar{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;flex:1 1 0%;width:auto;min-height:48px;margin:0;padding:3px 6px;border:0;background:none;font-size:12px}
 @media(max-height:450px){body[data-book="intro-1"] #contents-bar{min-height:36px;flex-direction:row}}
+/* iOS can retain :hover after a tap. Navigation returns to its neutral colour. */
+@media(hover:none){
+ body[data-book="intro-1"] #previous:hover,body[data-book="intro-1"] #next:hover{background:linear-gradient(#fffaf0,#f5ead5)}
+ body[data-book="intro-1"] #previous:active,body[data-book="intro-1"] #next:active{background:#efe0c4}
+}
+body[data-book="intro-1"] #previous,body[data-book="intro-1"] #next{-webkit-tap-highlight-color:transparent}
