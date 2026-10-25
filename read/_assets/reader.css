@@ -9,3 +9,19 @@
 .toc-row .author{display:block;font-size:11px;line-height:1.5;margin-top:5px;color:#927247}.heading h1{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}@media(max-width:600px){.heading h1{font-size:18px}}
 
 .toc-row:disabled{opacity:.7;cursor:default;color:#746959}.toc-row:disabled small{color:#746959}.toc-row small{white-space:normal;min-width:55px;text-align:right}.toc-row .author{white-space:normal}#contents-bar{font-size:11px}.toc-group{margin:20px 8px 6px;color:#941e22;font-size:18px}.compilers{margin:8px;font-size:12px;line-height:1.5;color:#876232}.compilers summary{cursor:pointer;padding:8px 0}.compilers p{margin:8px 0 14px}.sample-body{padding:0 22px 24px;font-size:15px;line-height:1.6}.sample-pages{display:flex;flex-wrap:wrap;gap:7px;margin:16px 0}.sample-pages button{padding:8px 12px;min-width:44px}.sample-body a,.edition-credits a{color:#941e22}.edition-credits{font-size:11px;line-height:1.6;margin:20px 22px;color:#876232}.contents-help{font-size:12px;margin:0 22px 12px;color:#876232}.heading h1{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}header p{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}@media(max-width:600px){.heading h1{font-size:18px}}#current-label{font-variant-numeric:tabular-nums}
+/* Mobile Safari: prevent automatic text inflation and keep header controls in their columns. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+header>.heading{grid-column:2;grid-row:1;width:100%;max-width:100%;min-width:0;overflow:hidden}
+header>#back{grid-column:1;grid-row:1;justify-self:center}
+header>#menu{grid-column:3;grid-row:1;justify-self:center}
+header .heading>*{max-width:100%;overflow-wrap:anywhere}
+@media(max-width:600px){
+ header{grid-template-columns:44px minmax(0,1fr) 44px;padding-left:8px;padding-right:8px;column-gap:4px}
+ header .heading h1{font-size:18px;line-height:1.2;max-height:2.4em}
+ header .heading p{font-size:11px;line-height:1.35;max-height:2.7em}
+ .reader-frame{height:100vh;height:100dvh;min-height:0;overflow:hidden}
+ .toolbar{display:grid;grid-template-columns:44px 44px minmax(80px,104px) 44px 44px;gap:6px}
+ .toolbar .icon{width:44px;min-width:44px}
+ #page-jump{min-width:0;width:100%;padding:0 4px;white-space:nowrap}
+}
+@media(max-width:350px){header .heading h1{font-size:16px}.toolbar{gap:4px;grid-template-columns:44px 44px minmax(72px,1fr) 44px 44px}}
