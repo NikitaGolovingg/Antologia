@@ -50,7 +50,7 @@ async function showPage(n,animate=false){
 for(const [id,step] of [['previous',-1],['next',1]])$(id).addEventListener('click',e=>{if(e.detail>0)e.currentTarget.blur();showPage(available[available.indexOf(current)+step])});
 $('page-form').addEventListener('submit',e=>{e.preventDefault();showPage($('page-number').value)});
 $('retry').addEventListener('click',()=>showPage(pendingPage,false));
-$('zoom').addEventListener('click',()=>{if(mobile.matches){zoomMobile(zoomScale>1.01?1:2.5);return}const active=document.body.classList.toggle('zoomed');$('zoom').setAttribute('aria-pressed',String(active));$('zoom').setAttribute('aria-label',active?'Уместить страницу':'Увеличить страницу');$('zoom').innerHTML='<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m15 15 7 7" stroke="currentColor" stroke-width="1.7"/></svg>'});
+$('zoom').addEventListener('click',e=>{if(e.detail>0)e.currentTarget.blur();if(mobile.matches){zoomMobile(zoomScale>1.01?1:2.5);return}const active=document.body.classList.toggle('zoomed');$('zoom').setAttribute('aria-pressed',String(active));$('zoom').setAttribute('aria-label',active?'Уместить страницу':'Увеличить страницу');$('zoom').innerHTML='<svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m15 15 7 7" stroke="currentColor" stroke-width="1.7"/></svg>'});
 document.addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|BUTTON/.test(e.target.tagName)||busy||document.querySelector('dialog[open]'))return;if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();showPage(e.key==='Home'?available[0]:e.key==='End'?available.at(-1):available[available.indexOf(current)+(e.key==='ArrowRight'?1:-1)])}});
 area.addEventListener('touchstart',e=>{
  if(e.touches.length===2&&mobile.matches){startTouch=null;lastTap=null;pinch={distance:Math.hypot(e.touches[1].clientX-e.touches[0].clientX,e.touches[1].clientY-e.touches[0].clientY),scale:zoomScale};return}
@@ -64,10 +64,24 @@ area.addEventListener('touchmove',e=>{
 area.addEventListener('touchend',e=>{
  if(pinch){pinch=null;startTouch=null;return}if(!startTouch||busy)return;
  const t=e.changedTouches[0],dx=t.clientX-startTouch.x,dy=t.clientY-startTouch.y;startTouch=null;
- if(mobile.matches&&Math.abs(dx)<15&&Math.abs(dy)<15){const now=performance.now();if(lastTap&&now-lastTap.time<320&&Math.hypot(t.clientX-lastTap.x,t.clientY-lastTap.y)<35){zoomMobile(zoomScale>1.01?1:2.5,{x:t.clientX,y:t.clientY});lastTap=null;return}lastTap={time:now,x:t.clientX,y:t.clientY}}
+
  if(document.body.classList.contains('zoomed'))return;if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.5)showPage(available[available.indexOf(current)+(dx<0?1:-1)]);
 },{passive:true});
 area.addEventListener('touchcancel',()=>{startTouch=null;pinch=null;lastTap=null},{passive:true});
+// A short tap on the image turns a page; drag, pinch and long press do not.
+let pageTap=null;
+area.addEventListener('pointerdown',e=>{
+ if(!e.isPrimary||e.button!==0){pageTap=null;return}
+ if(e.target!==image||zoomScale>1.01||busy){pageTap=null;return}
+ pageTap={id:e.pointerId,x:e.clientX,y:e.clientY,time:performance.now()};
+});
+area.addEventListener('pointerup',e=>{
+ const tap=pageTap;pageTap=null;
+ if(!tap||tap.id!==e.pointerId||busy||zoomScale>1.01||performance.now()-tap.time>350||Math.hypot(e.clientX-tap.x,e.clientY-tap.y)>12)return;
+ const box=image.getBoundingClientRect();if(e.clientX<box.left||e.clientX>box.right||e.clientY<box.top||e.clientY>box.bottom)return;
+ const step=e.clientX<box.left+box.width/2?-1:1,n=available[available.indexOf(current)+step];if(n!==undefined)showPage(n);
+});
+area.addEventListener('pointercancel',()=>{pageTap=null});
 window.Reader={go:showPage,page:()=>current,zoom:()=>zoomScale};
 window.ReaderReady=fetch('./book.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{
 meta=data;available=meta.availablePages;total=meta.lastPage;document.title=meta.title+' — Антология';$('book-title').textContent=meta.title;$('page-total').textContent='/ '+total;$('page-number').max=total;
