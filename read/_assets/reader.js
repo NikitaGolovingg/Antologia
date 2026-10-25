@@ -15,7 +15,7 @@ function zoomMobile(scale,point){
  $('zoom').setAttribute('aria-pressed',String(zoomScale>1.01));$('zoom').setAttribute('aria-label',zoomScale>1.01?'Уместить страницу':'Увеличить страницу');$('zoom').textContent=zoomScale>1.01?'100%':'＋';
  if(zoomScale>1.01){area.scrollLeft=fx*sheet.clientWidth-(point.x-box.left);area.scrollTop=fy*sheet.clientHeight-(point.y-box.top)}else{area.scrollLeft=0;area.scrollTop=0}
 }
-new ResizeObserver(fitMobile).observe(area);image.addEventListener('load',fitMobile);
+new ResizeObserver(()=>requestAnimationFrame(fitMobile)).observe(area);image.addEventListener('load',fitMobile);
 mobile.addEventListener('change',()=>{zoomScale=1;document.body.classList.remove('zoomed');$('zoom').textContent='＋';$('zoom').setAttribute('aria-pressed','false');$('zoom').setAttribute('aria-label','Увеличить страницу');fitMobile()});
 function controls(){ $('previous').disabled=busy||available.indexOf(current)<=0;$('next').disabled=busy||!total||available.indexOf(current)>=available.length-1;area.setAttribute('aria-busy',String(busy));$('loading').hidden=!busy;}
 async function showPage(n,animate=true){
