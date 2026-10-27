@@ -1,0 +1,41 @@
+/* Volume 1 / book 1 only: original palette and frame, revised controls. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body[data-book="intro-2"] header{display:block;text-align:center}
+body[data-book="intro-2"] .heading{width:100%;min-width:0;overflow:hidden}
+body[data-book="intro-2"] .heading h1{overflow-wrap:anywhere}
+body[data-book="intro-2"] .toolbar{display:flex;align-items:flex-start;justify-content:center;gap:12px;width:100%;max-width:420px;margin:0 auto}
+.reader-control{display:flex;flex-direction:column;align-items:center;gap:4px;flex:0 0 56px;min-width:0}
+.counter-control{flex:1 1 104px;max-width:120px;padding-top:0}
+.control-label{font-size:11px;line-height:1.25;color:#795327;white-space:nowrap}
+body[data-book="intro-2"] .reader-control .icon{-webkit-appearance:none;appearance:none;display:flex;align-items:center;justify-content:center;flex:none;width:44px!important;min-width:44px!important;max-width:44px!important;height:44px;min-height:44px;padding:0!important;margin:0;box-sizing:border-box;line-height:1;overflow:hidden}
+body[data-book="intro-2"] #page-jump{-webkit-appearance:none;appearance:none;min-width:0;width:100%;height:44px;padding:0 4px;font-size:15px;white-space:nowrap;border-radius:24px;display:flex;align-items:center;justify-content:center;gap:3px}
+.counter-arrow{margin-left:5px;font-size:15px}
+.reader-tabs{display:flex;justify-content:center;gap:0;border-top:1px solid var(--line);margin-top:9px;padding:5px 0}
+body[data-book="intro-2"] .reader-tabs button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;flex:1 1 0%;width:auto;min-width:0;min-height:48px;margin:0;padding:3px 6px;border:0;background:none;border-radius:0;font-size:12px;color:#795327}
+.reader-tabs button+button{border-left:1px solid var(--line)!important}.tab-icon{font-size:24px;line-height:1;color:var(--red)}
+#saved-section{border-top:0;margin-top:16px}#saved-section>h3{display:none}
+#turn-layer{display:none!important}.sheet{animation:none!important;transition:none!important}
+@media(max-width:600px){
+ body[data-book="intro-2"] header{padding:12px 16px 10px;min-height:0}
+ body[data-book="intro-2"] .heading h1{font-size:18px;line-height:1.2;max-height:2.4em}
+ body[data-book="intro-2"] header p{font-size:11px;line-height:1.35;max-height:2.7em}
+ body[data-book="intro-2"] footer{padding-left:8px;padding-right:8px;padding-top:8px}
+ body[data-book="intro-2"] .toolbar{gap:4px;max-width:370px}
+ .reader-control{flex-basis:52px}.counter-control{flex:1 1 84px;max-width:104px}
+ .control-label{font-size:10px}
+}
+@media(max-width:350px){.reader-control{flex-basis:47px}.counter-control{flex:1 1 72px}.control-label{font-size:9px}body[data-book="intro-2"] #page-jump{font-size:14px}.counter-arrow{margin-left:1px}}
+@media(max-height:450px){body[data-book="intro-2"] header{padding:5px 14px}.reader-tabs{margin-top:5px;padding:0}.reader-tabs button{min-height:36px!important;flex-direction:row!important}.reader-control{gap:2px}.control-label{font-size:9px}}
+body[data-book="intro-2"] #contents-bar{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;flex:1 1 0%;width:auto;min-height:48px;margin:0;padding:3px 6px;border:0;background:none;font-size:12px}
+@media(max-height:450px){body[data-book="intro-2"] #contents-bar{min-height:36px;flex-direction:row}}
+/* iOS can retain :hover after a tap. Navigation returns to its neutral colour. */
+@media(hover:none){
+ body[data-book="intro-2"] #previous:hover,body[data-book="intro-2"] #next:hover{background:linear-gradient(#fffaf0,#f5ead5)}
+ body[data-book="intro-2"] #previous:active,body[data-book="intro-2"] #next:active{background:#efe0c4}
+}
+body[data-book="intro-2"] #previous,body[data-book="intro-2"] #next{-webkit-tap-highlight-color:transparent}
+body[data-book="intro-2"] #zoom[aria-pressed="true"]{color:#fff;background:var(--red)}
+body[data-book="intro-2"] #zoom{-webkit-tap-highlight-color:transparent}
+@media(hover:none){body[data-book="intro-2"] #zoom[aria-pressed="false"]:hover{background:linear-gradient(#fffaf0,#f5ead5)}body[data-book="intro-2"] #zoom[aria-pressed="true"]:hover{background:var(--red)}}
+.search-field{position:relative}.search-field input{padding-right:48px}#clear-search{position:absolute;right:1px;top:1px;bottom:1px;width:44px;min-height:44px;border:0;background:none;font:26px/1 Arial,sans-serif;color:#8f662b}#clear-search[hidden]{display:none}
+#contents-search::-webkit-search-cancel-button{-webkit-appearance:none;appearance:none}
